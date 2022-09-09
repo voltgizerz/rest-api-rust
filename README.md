@@ -12,8 +12,8 @@ Routes:
 - (hello) GET /
 - (ping) GET /ping
 - (loops) GET /loops
-- (user) GET /user/<name>/<age>
-- (hello_param) GET /hello/<name>/<age>
+- (user) GET /user/{name}/{age}
+- (hello_param) GET /hello/{name}/{age}
 
 - Response hello_param:
 
